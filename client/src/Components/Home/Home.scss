@@ -1,0 +1,25 @@
+.Foto2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.foto{
+    width: 300px;
+    height: 20rem;
+    border-radius: 20rem;
+    border: 3px solid  rgb(80, 83, 255);
+
+}
+/* .Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 50rem;
+} */
+.Todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

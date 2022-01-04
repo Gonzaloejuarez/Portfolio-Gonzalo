@@ -1,0 +1,110 @@
+.Nav{
+    background-color: cadetblue;   
+}
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #D2A095;
+    height: 80px;
+}
+.menu-bars{
+    background-color: rgb(216, 20, 20);
+}
+.menu-bars:hover{
+    box-shadow: 5px 5px 5px var(#000000);
+}
+
+.nav-menu{
+    background-color: rgb(46, 55, 85);
+    width: 200px;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 350ms;
+}
+.nav-menu.active{
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text a {
+    color: rgb(221, 194, 158);
+    text-decoration: none;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+    margin-top: 2rem;
+}
+/* .todo{
+    background-color: rgb(102, 129, 252);
+} */
+.nav-text a:hover{
+    background-color: #5D423D;
+    width: 10.7rem;
+}
+.nav-menu-items{
+    width: 100%;
+    margin-left: -3rem;
+}
+.pepe{
+   color: rgb(250, 250, 250);
+}
+.navbar-toggle{
+   /*  background-color: #E69A89; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: white; */
+}
+
+span{
+    margin-left: 16px;
+}
+.input-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-load{
+    width: 200px;
+    height: 35px;
+    background: #E69A89 ;
+    font-size: 10pt;
+    border: 2px solid white;
+    float: left;
+    color: #5D423D;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 9px;
+    margin-top: 2px;
+}
+.input-load:hover{
+    background:rgb(82, 77, 77) ;
+}
+.search{
+    cursor: pointer;
+    font-size: 20px;
+    margin: 2px 2px 2px;
+}
+.search:hover{
+    color: rgb(82, 77, 77);
+}
+
+.menu-bars{
+    margin-left: 2rem;
+    font-size: 2rem;
+    background:none;
+}
+li{
+    list-style: none;
+}
