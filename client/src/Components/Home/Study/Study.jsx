@@ -1,11 +1,12 @@
 import React from "react";
-
+import "./Study.scss"
 
 export const Study = () => {
     return(
-        <section id="Estudio">
+        <div className="div_study">
+        <section id="Estudio" className="section">
             <div>
-                <h1>Educacion</h1>
+                <h1 className="h1_educacion">Educacion</h1>
                 <p>
                     Henry
                 </p>
@@ -15,6 +16,7 @@ export const Study = () => {
             </div>
 
         </section>
+        </div>
     )
 }
 

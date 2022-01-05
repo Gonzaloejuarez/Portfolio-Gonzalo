@@ -5,9 +5,12 @@
     justify-content: center;
 }
 .foto{
-    width: 300px;
-    height: 20rem;
+    width: 170px;
     border-radius: 20rem;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    
     border: 3px solid  rgb(80, 83, 255);
 
 }
@@ -18,8 +21,50 @@
     margin-top: 2rem;
     width: 50rem;
 } */
-.Todo{
+.section_home{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem 0 4rem;
+    transition: 2s;
+    margin: 0 0 3rem 0;
+    width: 65rem;
+}
+.div_home{
+    display: flex;
+    justify-content: center;
+}
+.Container{
+    width: 70rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.ladoB > h1 {
+    
+    color: darkblue;
+    font-size: 3rem;
+}
+.ladoB > h2 {
+    display: flex;
+    font-size: 1.5rem;
+    color: darkblue;
+}
+.Todo{
+    /* padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr; */
+    padding-top: 5rem;
+    gap: 1rem;
+}
+.Home_Content{
+    grid-template-columns: .5fr .3fr;
+    padding-top: 3.5rem;
+    align-items: center;
+}
+.Home_data{
+    grid-column: 1/3;
+}
+.grid{
+    display: grid;
+    gap:1.5rem;
 }

@@ -3,13 +3,14 @@ import './Projects.scss';
 
 export const Projects = () => {
     return(
-        <section id="Projectos">
+        <div className='div_projects'>
+        <section id="Projectos" className='section '>
             <div>
-                <h1>
-                PROYECTOS
+                <h1 className='h1_proyects'>
+                Proyectos
                 </h1>
                 <p>
-                    Videogames
+                    
                 </p>
                 <p>
                     WallEt
@@ -22,6 +23,7 @@ export const Projects = () => {
                 </p>
             </div>
         </section>
+        </div>
     )
 }
 export default Projects

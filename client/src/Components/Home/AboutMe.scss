@@ -1,4 +1,51 @@
-.AboutMe{
+.section_about{
     display: flex;
-    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 4rem;
+    transition: 2s;
+    margin: 0 0 3rem 0;
+    width: 65rem;;
+}
+.about_me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1.5rem;
+}
+.div_about{
+    display: flex;
+    justify-content: center;
+}
+.about__buttons{
+    display: flex;
+    justify-content: center;
+}
+.about__buttons > a{
+    text-decoration: none;
+}
+.button{
+    display: inline-block;
+    background-color: rgb(74, 74, 250);
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: 1rem;
+}
+
+.h1_about{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align:center;
+    font-size: 2rem;
+    color: cornflowerblue;
+}
+.div_p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_me_description{
+    font-size: 1.2rem;
 }

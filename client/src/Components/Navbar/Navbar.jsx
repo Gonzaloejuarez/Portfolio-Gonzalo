@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react";
 import "./nav.scss";
 import * as FaIcons from 'react-icons/fa';
-import options from "./Options";
 import * as AiIcons from 'react-icons/ai';
 import * as RiIcons from 'react-icons/ri';
 import { Link } from "react-router-dom";
@@ -14,16 +13,16 @@ export const NavBar = () => {
     }
     return(
         <div className="todo">
-         <footer  className='menu-bars' >
+         {/* <footer  className='menu-bars' >
                 <FaIcons.FaBars onClick={handleClick} className='pepe'/>
-         </footer>
-         <nav className={ user ? 'nav-menu active' : 'nav-menu'}>
+         </footer> */}
+         <nav className="nav_menu_nav"/* className={ /* user ? 'nav-menu active' : 'nav-menu' */>
          <ul className='nav-menu-items' onClick={handleClick}>
-                    <li className="navbar-toggle">
+                    {/* <li className="navbar-toggle">
                      <Link to="#" className="menu-bars">
                          <AiIcons.AiOutlineClose className='pepe' />
                      </Link> 
-                    </li>  
+                    </li>   */}
                     <li className="nav-text">
                         <a href="#Inicio" > <AiIcons.AiFillHome /> Inicio</a>
                     </li>

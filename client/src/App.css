@@ -1,3 +1,53 @@
 /* .App{
   background-color: black;
 } */
+
+:root{
+  /* COLORES */
+  --firs-color: hsl(218, 100%, 50%);
+  --firs-colorNav:hsl(218, 100%, 50%);
+  --firts-color-alt:hsl(218, 100%, 30%);
+  --second-color:hsl(260, 67%, 50%);
+  --body-color:rgb(226, 226, 226);
+  --text-color:black;
+  --title-color:hsl(241, 91%, 18%);
+  --container-color:white;
+  --color-medium: hsl(230, 22%, 31%);
+  /* Tamanios */
+  --font-family:'Poppins', sans-serif;
+  --header-height : 3rem; 
+  --big-font-size:2rem;
+  --h1-font-size:1.5rem;
+  --h2-font-size:1.25rem;
+  --h3-font-size:1.125rem;
+  --normal-font:.938rem;
+  --small-font:.813rem;
+  --smaller-font: .75rem;
+
+  --font-medium:500;
+  --font-semi:600;
+  /* Margenes de los botones */
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-5:1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5:2.5rem;
+  --mb-3:3rem;
+
+  --z-tooltip: 10;
+  --z-fixed:100;
+  --z-modal:1000;
+}
+
+.App{
+  transition: 1s;
+  margin: 0 0 var(--header-height) 0;
+  font-family: var(--font-family);
+  font-size: var(--normal-font);
+  background-color: var(--body-color);
+  color: var(--text-color);
+  scroll-behavior: smooth;
+
+}
