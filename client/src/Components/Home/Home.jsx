@@ -14,6 +14,7 @@ export const Home = () => {
                 <div className="ladoB">
                 <h1>Hola, soy Gonzalo</h1>
                 <h2>Desarrollador Front-End</h2>
+                {/* <p>Desarrollador web en JavaScript</p> */}
                 <div class="about__info">
                     <div class="about__buttons">
                         <a href="#Contactame" class="button button--flex"> Contactame</a>

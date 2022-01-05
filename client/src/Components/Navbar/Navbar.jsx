@@ -11,10 +11,7 @@ export const NavBar = () => {
     }
     return(
         <div className="todo">
-         {/* <footer  className='menu-bars' >
-                <FaIcons.FaBars onClick={handleClick} className='pepe'/>
-         </footer> */}
-         <nav className="nav_menu_nav"/* className={ /* user ? 'nav-menu active' : 'nav-menu' */>
+         <div className="nav_menu_nav">
          <ul className='nav-menu-items' onClick={handleClick}>
                     {/* <li className="navbar-toggle">
                      <Link to="#" className="menu-bars">
@@ -40,7 +37,7 @@ export const NavBar = () => {
                         <a href="#Contactame" className="nav_link"  > <UilMessage  className="nav_logo"/>Contactame</a>
                     </li>
                 </ul>
-         </nav>
+         </div>
         </div>
     )
 }

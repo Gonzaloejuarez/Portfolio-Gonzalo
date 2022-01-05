@@ -1,13 +1,43 @@
 .section{
-    padding: 2rem 0 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem 0 4rem;
+    transition: 2s;
+    margin: 0 0 3rem 0;
+    width: 55rem;
+    
 }
 .div_projects{
     display: flex;
     justify-content: center;
 }
 .h1_proyects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: cornflowerblue;
+}
+.imagen_proyectos{
+    width: 25rem;
+    height: 15rem;
+}
+.abrir_Cerrar{
+    background-color: brown;
+}
+
+.grid_proyectos{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.proyect_videogames{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
