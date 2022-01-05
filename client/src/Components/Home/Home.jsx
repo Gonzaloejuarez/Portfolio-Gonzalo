@@ -14,6 +14,11 @@ export const Home = () => {
                 <div className="ladoB">
                 <h1>Hola, soy Gonzalo</h1>
                 <h2>Desarrollador Front-End</h2>
+                <div class="about__info">
+                    <div class="about__buttons">
+                        <a href="#Contactame" class="button button--flex"> Contactame</a>
+                    </div>
+                </div>
                 </div>
                 </div>
               
