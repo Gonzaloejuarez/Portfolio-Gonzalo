@@ -11,7 +11,7 @@ import {ContactMe} from './Components/Home/ContactMe/ContactMe';
 import {Skills} from './Components/Home/Skills/Skills';
 function App() {
   return (
-    <div className="App">
+    <div className="App">  
         <Route path="/" component={NavBar} />
         <Route path="/" component={Home}></Route>
         <Route path="/" component={AboutMe}/>
