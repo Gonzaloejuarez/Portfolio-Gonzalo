@@ -12,11 +12,17 @@
     display: flex;
     justify-content: center;
 }
-.image{
+.images{
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images > a {
+    display: flex;
+    margin: 2rem;
 }
 .imagenSocial{
-    width: 50px;
+    width: 80px;
 }
 .h1_contact{
     color: cornflowerblue;
