@@ -13,7 +13,7 @@ export const ContactMe = () => {
         <div className="div_images">
         <section id="Contactame" className="section">
             <div>
-                <h1 className="h1_contact">
+                <h1 className="h1_about">
                     Contactame
                 </h1>
             <div className="images">

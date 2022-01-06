@@ -10,3 +10,35 @@
     color: cornflowerblue;
     font-size: 1.5rem;
 }
+.grid_estudio{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.estudio_cosas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+.todo_estudio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.todo_estudio2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.todo_estudio > p {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+}
+.todo_estudio2 > p {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+}
+

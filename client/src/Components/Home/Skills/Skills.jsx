@@ -12,7 +12,7 @@ return(
     <div className="div_about">
         <section id="Skills" className="section">
             <div>
-                <h1>Skills</h1>
+                <h1 className="h1_about">Skills</h1>
                 <img src={js} alt="" />
                 <img src={html} alt="" />
                 <img src={css} alt="" />
