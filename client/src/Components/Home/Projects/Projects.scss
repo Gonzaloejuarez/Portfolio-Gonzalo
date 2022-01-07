@@ -42,24 +42,29 @@
   .slide.active {
     opacity: 1;
     transition-duration: 1s;
-    transform: scale(1.08);
+  }
+  .arrows_a{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      
   }
   .right-arrow {
-    position: absolute;
-    right: 4rem;
+   
+    /* position: absolute; */
+
     font-size: 3rem;
-    color: rgb(0, 77, 243);
-    z-index: 10;
+    color: rgb(89, 55, 170);
+    /* z-index: 10; */
     cursor: pointer;
     user-select: none;
   }
   
   .left-arrow {
-    position: absolute;
+   /*  position: absolute; */
     left: 4rem;
     font-size: 3rem;
-    color: rgb(0, 77, 243);
-    z-index: 10;
+    color: rgb(114, 87, 163);
+    /* z-index: 10; */
     cursor: pointer;
     user-select: none;
   }
@@ -77,5 +82,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
+    /* position: relative; */
 }

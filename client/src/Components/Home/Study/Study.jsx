@@ -10,18 +10,18 @@ export const Study = () => {
                 <h1 className="h1_about">Educacion</h1>
                 <div className="estudio_cosas">
                 <div className="todo_estudio"> 
-                <p><img src={henry} className="imagenSocial" alt="Henry" />
+                <h1><img src={henry} className="imagenSocial" alt="Henry" />
                 Henry
-                </p>
+                </h1>
                 <p>
                     13abr 2021 - 13sep 2021
                 </p>
                 </div>
                 <div className="todo_estudio2">
-                <p>
+                <h1>
                     <img className="imagenSocial" src={escuela} alt="Tecnica" />
                     Tecnico
-                </p>
+                </h1>
                 <p>
                     2014 - 2020
                 </p>
