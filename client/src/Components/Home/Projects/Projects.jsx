@@ -58,7 +58,7 @@ export const Projects = () => {
         <div className={style.div_projects}> 
             <section id="Projectos" className={style.section}>
             <div>
-                <h1 className={style.h1_about}>
+                <h1 className={style.h1_proyects}>
                 Proyectos
                 </h1>
                 <div className={style.grid_proyectos}>
@@ -82,9 +82,9 @@ export const Projects = () => {
                         <h1>Videogames</h1>
                         <p>Videogames es una pagina web hecha con el stack PERN.En ella vas a poder ver los juegos que existen, vas a poder filtrar por los mas conocidos y crear un juego
                         </p>
-                        <a href="https://github.com/Gonzaloejuarez/Videogames" target="_BLANK" className={style.button_button__flex}>Repositorio</a>
+                        <a href="https://github.com/Gonzaloejuarez/Videogames" target="_BLANK" className={style.button}>Repositorio</a>
                     </div>
-                    <div className='proyect_videogames'>
+                    <div className={style.proyect_videogames}>
                         {WallEt.map((slide,index) => {
                             return (
                                 <div
@@ -103,7 +103,7 @@ export const Projects = () => {
                         </div>
                         <h1>Wall-Et</h1>
                         <p>Wall-Et es una billetera virtual en la cual vas a poder hacerle transferencias a amigos, conocidos y podras ver como esta interactuando tu cuenta con las finanzas mensuales. Este proyecto esta hecho con el stack PERN</p>
-                        <a href="https://github.com/Gonzaloejuarez/Wall-et" target="_BLANK" className={style.button_button__flex}>Repositorio</a>
+                        <a href="https://github.com/Gonzaloejuarez/Wall-et" target="_BLANK" className={style.button}>Repositorio</a>
                     </div>
                     <div className={style.proyect_videogames}>
                         {TodoLi.map((slide,index) => {
@@ -126,14 +126,14 @@ export const Projects = () => {
                         <p>To-do App es una aplicacion en la cual vas a tener tu propio perfil donde podras loguearte o registrarte y dentro de ella vas a poder poner en una lista las tareas predeterminadas que tengas que hacer, tambien podras editarlas y eliminarlas.
                             Este proyecto esta hecho con el stack PERN
                         </p>
-                        <a href="https://github.com/Gonzaloejuarez/ToDoApp"  target="_BLANK" className={style.button_button__flex}>Repositorio</a>
+                        <a href="https://github.com/Gonzaloejuarez/ToDoApp"  target="_BLANK" className={style.button}>Repositorio</a>
                     </div>
                     <div className={style.proyect_videogames}>
                         <img src={clima} alt="Clima" className={style.imagen_proyectos}/>
                         <h1>NextClima</h1>
                         <p>NextClima es una aplicacion en la cual vas a poder ver el clima de la ciudad que vos busques. A medida de que vayas agregando ciudades tambien vas a poder sacarlas del inicio. Proximamente se le agregara un usuario, El proyecto hesta hecho con ReactJS
                         </p>
-                        <a href="https://github.com/Gonzaloejuarez/NextClima" target="_BLANK" className={style.button_button__flex}>Repositorio</a>
+                        <a href="https://github.com/Gonzaloejuarez/NextClima" target="_BLANK" className={style.button}>Repositorio</a>
                     </div>
                 </div>
             </div>

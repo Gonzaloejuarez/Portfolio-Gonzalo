@@ -1,15 +1,61 @@
-.imagenLen{
-    width: 6rem;
-    margin: 2rem;
-}
-.skills_div{
+@media (max-width : 768px){
+
+    .imagenLen{
+        width: 6rem;
+        margin: 2rem;
+    }
+    .skills_div{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
+.div_skill{
+    display: flex;
+    justify-content: center;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0 4rem;
+    transition: 2s;
+    margin: 0 0 3rem 0;
+    width: 50%;
+}
+.h1_about{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align:center;
+    font-size: 2rem;
+    color: rgb(7, 50, 129);
+ }
+}
 @media (min-width : 768px){
+    .div_skill{
+        display: flex;
+        justify-content: center;
+    }
+    .section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 0 4rem;
+        transition: 2s;
+        margin: 0 0 3rem 0;
+        width: 55rem;
+    }
+    .h1_about{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        text-align:center;
+        font-size: 2rem;
+        color: rgb(7, 50, 129);
+    }
     .imagenLen{
-        width: 10rem;
+        width: 8rem;
         margin: 2rem;
     }
     .skills_div{

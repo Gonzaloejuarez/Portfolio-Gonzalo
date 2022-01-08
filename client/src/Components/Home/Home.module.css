@@ -54,11 +54,13 @@
     
     color: darkblue;
     font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
 }
 .ladoB > h2 {
     display: flex;
     font-size: 1.5rem;
     color: darkblue;
+    font-family: 'Poppins', sans-serif;
 }
 
 .button{

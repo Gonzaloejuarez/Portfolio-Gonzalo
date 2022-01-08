@@ -17,7 +17,7 @@ export const AboutMe = () => {
                 </p>
                 <div class={style.about_info}>
                     <div class={style.about__buttons}>
-                        <a download="" href={cv} class="button button--flex">Descargar CV</a>
+                        <a download="" href={cv} class={style.button}>Descargar CV</a>
                     </div>
                 </div>
                 </div>

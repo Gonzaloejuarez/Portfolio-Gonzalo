@@ -10,10 +10,10 @@ import react from '../../../image/lenguajes/reactbueno.png';
 import postgres from '../../../image/lenguajes/postgre.png';
 export const Skills = () => {
 return(
-    <div className={style.div_about}>
+    <div className={style.div_skill}>
         <section id="Skills" className={style.section}>
             <div>
-            <h1 className="h1_about">Skills</h1>
+            <h1 className={style.h1_about}>Skills</h1>
             <div className={style.skills_div}>
                 <img className={style.imagenLen} src={js} alt="" />
                 <img className={style.imagenLen} src={html} alt="" />
