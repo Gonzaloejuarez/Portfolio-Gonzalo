@@ -35,12 +35,12 @@
 }
 
 .slide {
-    opacity: 0;
+    /* opacity: 0; */
     transition-duration: 1s ease;
   }
   
   .slide.active {
-    opacity: 1;
+    /* opacity: 1; */
     transition-duration: 1s;
   }
   .arrows_a{

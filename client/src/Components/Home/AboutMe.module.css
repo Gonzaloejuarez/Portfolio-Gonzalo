@@ -1,4 +1,4 @@
-/* .section_about{
+.section_about{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@
 .h1_about{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     text-align:center;
     font-size: 2rem;
@@ -48,4 +48,4 @@
 }
 .about_me_description{
     font-size: 1.2rem;
-} */
+}

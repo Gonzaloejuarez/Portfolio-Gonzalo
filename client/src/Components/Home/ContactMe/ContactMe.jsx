@@ -1,6 +1,6 @@
 import React from "react";
 //estilo
-import "./ContactMe.scss";
+import style from  "./Contact.module.css";
 //importacion de imagenes
 import wsp from '../../../image/whatsapp.png';
 import Git from '../../../image/github.png';
@@ -10,24 +10,24 @@ import gmail from '../../../image/gmail.png';
 
 export const ContactMe = () => {
     return(
-        <div className="div_images">
-        <section id="Contactame" className="section">
+        <div className={style.div_images}>
+        <section id="Contactame" className={style.section}>
             <div>
-                <h1 className="h1_about">
+                <h1 className={style.h1_about}>
                     Contactame
                 </h1>
-            <div className="images">
+            <div className={style.images}>
             <a href="https://api.whatsapp.com/send?phone=1130449589" target="_BLANK">
-                    <img className="imagenSocial" src={wsp} alt=""/>
+                    <img className={style.imagenSocial} src={wsp} alt=""/>
                 </a>
                 <a href="https://www.linkedin.com/in/gonzalo-juarez-o2/" target='_BLANK'class="home__social-icon">
-                    <img className="imagenSocial" src={Link} alt=""/>
+                    <img className={style.imagenSocial} src={Link} alt=""/>
                 </a>
                 <a href="https://mail.google.com/a/?view=cm&fs=1&to=juarezgonzalo000@gmail.com" target="_BLANK">
-                    <img className="imagenSocial"  src={gmail} alt=""/>
+                    <img className={style.imagenSocial}  src={gmail} alt=""/>
                 </a>
                 <a href="https://github.com/Gonzaloejuarez" target="_BLANK">
-                    <img className="imagenSocial"  src={Git} alt=""/>
+                    <img className={style.imagenSocial}  src={Git} alt=""/>
                 </a>
             </div>
             </div>

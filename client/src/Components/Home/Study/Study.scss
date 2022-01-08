@@ -1,4 +1,4 @@
-.section{
+/* .section{
     padding: 2rem 0 4rem;
     margin: 0 0 3rem 0;
 }
@@ -9,6 +9,15 @@
 .h1_educacion{
     color: cornflowerblue;
     font-size: 1.5rem;
+}
+.h1_estudio2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 36, 97);
+}
+.h1_parrafo{
+    color: grey;
 }
 .grid_estudio{
     display: grid;
@@ -22,14 +31,14 @@
 .todo_estudio{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: rgb(218, 218, 218);
+    background-color: white;
     margin: 1rem;
 }
 .todo_estudio2{
     margin: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: rgb(218, 218, 218);
+    background-color: white;
 }
 .todo_estudio > p {
     display: flex;
@@ -39,8 +48,8 @@
     padding: 2rem;
     margin-left: 300px;
     font-size: 1rem;
-    /* font-size: 1.3rem;
-    margin-right: 300px; */
+    font-size: 1.3rem;
+    margin-right: 300px;
 }
 .todo_estudio2 > p {
     display: flex;
@@ -48,10 +57,11 @@
     justify-content: flex-start;
     align-items: center;
     padding: 2rem;
-    /* font-size: 1.3rem; */
-   /*  margin-right: 300px;
-    margin-left: 300px; */
+    font-size: 1.3rem;
+    margin-right: 300px;
+    margin-left: 300px;
     font-size: 1rem;
     margin-left: 300px; 
 }
 
+ */

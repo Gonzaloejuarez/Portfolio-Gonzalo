@@ -1,5 +1,5 @@
-import React from "react"
-import "./Skills.scss"
+import React from "react";
+import style from './Skills.module.css'
 import js from '../../../image/lenguajes/js.png';
 import html from '../../../image/lenguajes/html-5.png'
 import css from '../../../image/lenguajes/css-3.png'
@@ -10,19 +10,19 @@ import react from '../../../image/lenguajes/reactbueno.png';
 import postgres from '../../../image/lenguajes/postgre.png';
 export const Skills = () => {
 return(
-    <div className="div_about">
-        <section id="Skills" className="section">
+    <div className={style.div_about}>
+        <section id="Skills" className={style.section}>
             <div>
             <h1 className="h1_about">Skills</h1>
-            <div className="skills_div">
-                <img className="imagenLen" src={js} alt="" />
-                <img className="imagenLen" src={html} alt="" />
-                <img className="imagenLen" src={css} alt="" />
-                <img className="imagenLen" src={git} alt="" />
-                <img className="imagenLen" src={sass} alt="" />
-                <img className="imagenLen" src={redux}alt="" />
-                <img className="imagenLen" src={react} alt="" />
-                <img className="imagenLen" src={postgres} alt="" />
+            <div className={style.skills_div}>
+                <img className={style.imagenLen} src={js} alt="" />
+                <img className={style.imagenLen} src={html} alt="" />
+                <img className={style.imagenLen} src={css} alt="" />
+                <img className={style.imagenLen} src={git} alt="" />
+                <img className={style.imagenLen} src={sass} alt="" />
+                <img className={style.imagenLen} src={redux}alt="" />
+                <img className={style.imagenLen} src={react} alt="" />
+                <img className={style.imagenLen} src={postgres} alt="" />
             </div>
             </div>
         </section>

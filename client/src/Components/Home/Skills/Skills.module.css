@@ -1,5 +1,5 @@
-/* .imagenLen{
-    width: 10rem;
+.imagenLen{
+    width: 6rem;
     margin: 2rem;
 }
 .skills_div{
@@ -7,7 +7,7 @@
     grid-template-columns: 1fr 1fr;
 }
 
-@media (max-width : 768px){
+@media (min-width : 768px){
     .imagenLen{
         width: 10rem;
         margin: 2rem;
@@ -16,4 +16,4 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     } 
-} */
+}

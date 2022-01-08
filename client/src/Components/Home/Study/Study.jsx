@@ -10,20 +10,20 @@ export const Study = () => {
                 <h1 className="h1_about">Educacion</h1>
                 <div className="estudio_cosas">
                 <div className="todo_estudio"> 
-                <h1><img src={henry} className="imagenSocial" alt="Henry" />
+                <h1 className="h1_estudio2"><img src={henry} className="image2nSocial" alt="Henry" />
                 Henry
                 </h1>
-                <p>
-                    13abr 2021 - 13sep 2021
+                <p className="h1_parrafo">
+                    Abr 2021 - Sep 2021
                 </p>
                 </div>
                 <div className="todo_estudio2">
-                <h1>
-                    <img className="imagenSocial" src={escuela} alt="Tecnica" />
+                <h1 className="h1_estudio2">
+                    <img className="image2nSocial" src={escuela} alt="Tecnica" />
                     Tecnico
                 </h1>
-                <p>
-                    2014 - 2020
+                <p className="h1_parrafo">
+                    Mar 2014 - Dic 2020
                 </p>
                 </div>
                 </div>
