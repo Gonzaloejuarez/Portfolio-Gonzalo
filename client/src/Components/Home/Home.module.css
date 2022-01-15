@@ -72,6 +72,15 @@
     font-weight: 1rem;
     text-decoration: none;
 }
+.button:hover{
+    display: inline-block;
+    background-color: rgb(100, 100, 177);
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: 1rem;
+    text-decoration: none;
+}
 
  @media (min-width : 768px) {
     .Foto2{
@@ -144,6 +153,103 @@
         text-decoration: none;
     }
  }
+ .button:hover{
+    display: inline-block;
+    background-color: rgb(100, 100, 177);
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: 1rem;
+    text-decoration: none;
+}
+
+
+ @media (max-width : 492px){
+    .Foto2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .foto{
+        width: 170px;
+        border-radius: 20rem;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        border: 3px solid  rgb(80, 83, 255);
+    }
+    
+    .section_home{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0 4rem;
+        transition: 2s;
+        margin: 0 0 3rem 0;
+        width: 100%;
+    }
+    
+    .Todo_Container{
+        padding-top: 5rem;
+        gap: 1rem;
+        width: 70rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    
+    .Todo_Container{
+        padding-top: 5rem;
+        gap: 1rem;
+        width: 65rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem; 
+    }
+    .Home_Content_grid{
+        display: flex;
+        flex-direction: column;
+        padding-top: 3.5rem;
+        align-items: center;
+    }
+    
+    .div_home{
+        display: flex;
+        justify-content: center;
+    }
+    .ladoB > h1 {
+        
+        color: darkblue;
+        font-size: 3rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    .ladoB > h2 {
+        display: flex;
+        font-size: 1.5rem;
+        color: darkblue;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .button{
+        display: inline-block;
+        background-color: rgb(70, 70, 88);
+        color: #fff;
+        padding: 1rem;
+        border-radius: .5rem;
+        font-weight: 1rem;
+        text-decoration: none;
+    }.button:hover{
+        display: inline-block;
+        background-color: rgb(100, 100, 177);
+        color: #fff;
+        padding: 1rem;
+        border-radius: .5rem;
+        font-weight: 1rem;
+        text-decoration: none;
+    }
+}
+
+
 
 /* 
 @media (max-width : 768px) {

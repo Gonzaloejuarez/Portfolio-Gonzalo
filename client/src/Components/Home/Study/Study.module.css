@@ -131,3 +131,73 @@
         width: 60px;
     }
 }
+
+
+@media (max-width : 492px){
+    .div_study{
+        display: flex;
+        justify-content: center;
+    }
+    .section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0 4rem;
+        transition: 2s;
+        margin: 0 0 3rem 0;
+        width: 50%;
+    }
+    .h1_educacion{
+        color: cornflowerblue;
+        font-size: 1.5rem;
+    }
+    .h1_study{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        text-align:center;
+        font-size: 2rem;
+        color: rgb(7, 50, 129);
+    }
+    .h1_estudio2{
+        display: flex;
+        justify-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        color: rgb(3, 36, 97);
+    }
+    .estudio_cosas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;    
+    }
+    .todo_estudio{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        align-items: center;
+        margin-left: 1rem;
+    }
+    .todo_estudio2{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        align-items: center;
+        margin-left: 1rem;
+
+    }
+    
+    .h1_parrafo{
+        display: flex;
+        justify-content: center;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 2rem;
+        margin-left: 12rem;
+        font-size: .9rem;
+         
+    }
+    .imagenSocial{
+        display: flex;
+        width: 40px;
+    }
+}

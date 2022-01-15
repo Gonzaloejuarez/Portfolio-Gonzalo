@@ -43,7 +43,7 @@
     }
     .button{
         display: inline-block;
-        background-color: rgb(74, 74, 250);
+        background-color: rgb(70, 70, 88);
         color: #fff;
         padding: 1rem;
         border-radius: .5rem;
@@ -122,7 +122,7 @@
     }
     .button{
         display: inline-block;
-        background-color: rgb(74, 74, 250);
+        background-color: rgb(70, 70, 88);
         color: #fff;
         padding: 1rem;
         border-radius: .5rem;
@@ -172,4 +172,81 @@
         align-items: center;
     }
     
+}
+
+@media (max-width : 492px){
+    .imagen_proyectos{
+        width: 20rem;
+    height: 15rem;
+}
+.imagen_proyectos2{
+    width: 20rem;
+    height: 15rem;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 4rem;
+    transition: 2s;
+    margin: 0 0 3rem 0;
+    width: 50%;
+    
+}
+.div_projects{
+    display: flex;
+    justify-content: center;
+}
+.grid_proyectos{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.h1_proyects{
+    display: flex;
+    flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        text-align:center;
+        font-size: 2rem;
+        color: rgb(7, 50, 129);
+    }
+    .button{
+        display: inline-block;
+        background-color: rgb(74, 74, 250);
+        color: #fff;
+        padding: 1rem;
+        border-radius: .5rem;
+        font-weight: 1rem;
+        text-decoration: none;
+    }
+    
+    .right_arrow {
+        font-size: 3rem;
+        color: rgb(89, 55, 170);
+        cursor: pointer;
+        user-select: none;
+    }
+    
+    .left_arrow {
+        left: 4rem;
+        font-size: 3rem;
+        color: rgb(114, 87, 163);
+        cursor: pointer;
+        user-select: none;
+    }
+    .arrows_a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .proyect_videogames > p {
+        font-size: .9rem;
+        font-family: 'Poppins', sans-serif;
+    }
 }

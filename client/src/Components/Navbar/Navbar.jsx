@@ -22,7 +22,7 @@ export const NavBar = () => {
                         <a href="#Inicio" className={Style.nav_link} > <UilEstate className="nav_logo" /> Inicio</a>
                     </li>
                     <li className={Style.nav_text}>
-                        <a href="#SobreMi" className={Style.nav_link}   > <UilUser className="nav_logo"/> Sobre mi</a>
+                        <a href="#SobreMi" className={Style.nav_link}   > <UilUser className="nav_logo"/> SobreMi</a>
                     </li>
                     <li className={Style.nav_text}>
                         <a href="#Projectos" className={Style.nav_link}  > <UilClipboardNotes className="nav_logo"/> Projectos</a>
