@@ -232,7 +232,7 @@
     
     .button{
         display: inline-block;
-        background-color: rgb(70, 70, 88);
+        background-color: rgb(74, 74, 250);
         color: #fff;
         padding: 1rem;
         border-radius: .5rem;
@@ -240,7 +240,7 @@
         text-decoration: none;
     }.button:hover{
         display: inline-block;
-        background-color: rgb(100, 100, 177);
+        background-color: rgb(36, 36, 116);
         color: #fff;
         padding: 1rem;
         border-radius: .5rem;
