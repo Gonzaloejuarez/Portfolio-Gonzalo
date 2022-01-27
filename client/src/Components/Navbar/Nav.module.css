@@ -28,7 +28,7 @@
     }
     
     .nav_menu{
-        background-color: rgb(46, 55, 85);
+        background-color: rgb(255, 255, 255);
         width: 200px;
         
         display: flex;
@@ -67,11 +67,11 @@
         width: 100%;
         justify-content: center;
         align-items: center;
-        background-color: rgb(240, 235, 252);
+        background-color: rgb(255, 255, 255);
     }
    
     .nav_text a:hover{
-        color: #648dff;
+        color: #0749ff;
     }
     .nav_text> a {
         display: flex;
@@ -216,7 +216,7 @@
         width: 100%;
         justify-content: center;
         align-items: center;
-        background-color: rgb(240, 235, 252);
+        background-color: rgb(255, 255, 255);
     }
    
     .nav_text a:hover{
