@@ -1,6 +1,6 @@
 import React from "react"
 import style from  './AboutMe.module.css'
-import cv from '../../utils/Gonzalo Juarez.pdf'
+import cv from '../../utils/Gonzalo.pdf'
 export const AboutMe = () => {
     return(
         <div className={style.div_about}>
