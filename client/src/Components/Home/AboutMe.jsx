@@ -11,7 +11,7 @@ export const AboutMe = () => {
                 </h1>
                 <div className={style.about_me}>
                 <p className={style.about_me_description}>
-                Me llamo Gonzalo tengo 19 años, Soy de Argentina,Buenos Aires.<br/>
+                Me llamo Gonzalo tengo 20 años, Soy de Argentina,Buenos Aires.<br/>
                 Soy un Desarrollador Front-End y Tecnico informatico. Me gradue en la academia SoyHenry en la cual aprendi las tecnologias
                 JavaScript, React, Redux, Express, Sequalize, NodeJs y PostgreSQL. Con mas de 1000 horas de codigo en un total de 5 meses. 🚀 🚀
                 </p>
